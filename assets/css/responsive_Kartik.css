@@ -1,0 +1,80 @@
+@media screen and (min-width:300px) and (max-width:500px) {
+
+    /* iphone 12 pro */
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+
+
+    .slider-img {
+        height: auto;
+        width: 100%;
+    }
+
+    .carousel-1 {
+        width: 392px !important;
+        margin-left: -15px;
+    }
+
+    .carousel-2 {
+        width: 392px !important;
+        margin-left: -15px;
+    }
+
+    .container {
+        padding: 0 -1px;
+    }
+
+    .carousel-3 {
+        width: 392px !important;
+        margin-left: -15px;
+
+
+    }
+
+    .card-img-top {
+        height: 200px !important;
+        width: 90% !important;
+    }
+
+    .box {
+        margin-left: 0;
+    }
+
+    .box-img {
+        margin-top: 0px;
+    }
+
+    .text {
+        margin-top: 10px;
+    }
+
+    .text h3 {
+        font-size: 18px;
+    }
+
+    .text h5 {
+        font-size: 10px;
+    }
+
+    .partner {
+        height: 189px;
+    }
+
+    .partner-img {
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width:500px) {
+    .gs {
+        grid-auto-flow: column;
+    }
+}
