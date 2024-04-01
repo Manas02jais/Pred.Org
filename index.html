@@ -8,8 +8,10 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/index_Kartik.css">
-    <link rel="stylesheet" href="assets/css/responsive_Kartik.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./responsive.css">
+
+
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     <title>PREDULIVE</title>
@@ -18,40 +20,45 @@
 <body>
     <!-- nav starts -->
     <div class="main-header container-fluid position-fixed"
-        style="z-index: 1000; transition: background-color 0.3s ease-in-out; ">
-        <nav id="navbar" class="navbar navbar-expand-lg  navbar-light my-2  ">
-            <div class="container-fluid Roboto-font ">
-                <a class="navbar-brand mx-5" href="#"><b>PREDULIVE</b>
+        style="z-index: 1000; transition: 0.3s ease-in-out;background-color: rgba(0, 0, 0, 0.682); ">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid Roboto-font">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <b>PREDULIVE</b>
                 </a>
+
+                <!-- Toggler/collapsible Button -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link fw-bold " href="about_raj.html">
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold " href="#AboutUs">
                                 About Us
                             </a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item">
                             <a class="nav-link fw-bold" href="#">
                                 Programs
                             </a>
-
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link fw-bold" href="blog_Ansh_T3.html">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#blogs">
                                 Blogs
                             </a>
-
+                        </li>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <li class="nav-item">
+                            <button class="btn fw-bold teal" type="submit">Internships</button>
+                            <button class="btn fw-bold mx-3 teal" type="submit">Trainings</button>
                         </li>
                     </ul>
-                    <div class="d-flex mx-5">
-                        <button class="btn fw-bold teal" type="submit">Internships</button>
-                        <button class="btn fw-bold mx-3 teal" type="submit">Trainings</button>
-                    </div>
                 </div>
             </div>
         </nav>
@@ -179,434 +186,484 @@
 
     <!-- slider-img ends -->
     <!-- AboutUs -->
-    <div class="container Roboto-font  ">
-        <br>
-        <h2 class="text-center Roboto-font fw-bold" id="AboutUs">AboutUs</h2>
-        <div class="gs">
-            <div>
-                <img src="https://www.heliware.co.in/assets/images/Frame%20104.png" width="100%" class="box-img" alt="">
-            </div>
-            <div class=" box teal my-5  px-5">
-
-                <h1>heading 1</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat officiis ducimus perferendis dicta
-                    cupiditate corrupti dolores, minima, numquam sint odit dolorem distinctio suscipit. Facere quibusdam
-                    assumenda, maxime ipsum repellendus, eos aliquid labore, expedita minima sapiente corrupti explicabo
-                    unde accusamus sunt quaerat veniam eius voluptate incidunt pariatur deleniti architecto? Quas,
-                    obcaecati.</p>
-
-                <h1>heading 2</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptas eius quae nesciunt
-                    accusantium, fuga cum, ex architecto quo natus, saepe ratione enim quibusdam. Dolore blanditiis
-                    dolorum autem quia tempore.</p>
-
-                <h1>heading 3</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, molestiae! Illo, tempore
-                    culpa. Aliquid deleniti ipsa saepe fugiat voluptates similique perspiciatis laborum. Veritatis
-                    similique a, repellat dolor vitae beatae nobis.</p>
-
-                <h1>heading 4</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nihil cupiditate consequuntur aliquam
-                    a magnam in obcaecati quo libero harum quas unde, totam odit, doloribus, molestias excepturi saepe
-                    nulla beatae.</p>
-
-            </div>
-        </div>
-        <!-- AboutUs ends-->
-        <!-- our partners -->
-        <marquee class="marquee container" behavior="infinite" direction="">
-            <ul class="d-flex justify-content-around">
-                <li> <i class="fa fa-adn">Adn</i> </li>
-                <li> <i class="fa fa-amazon">Amazon</i>
-                </li>
-                <li> <i class="fa fa-android">Android</i>
-                </li>
-                <li> <i class="fa fa-apple">Apple</i>
-                </li>
-                <li> <i class="fa fa-bandcamp">Bandcamp</i>
-                </li>
-                <li> <i class="fa fa-angellist">Angellist</i> </li>
-                <li> <i class="fa fa-behance">hance</i>
-                </li>
-                <li> <i class="fa fa-bitbucket">Bitbucket</i> </li>
-                <li> <i class="fa fa-white-tie">white-tie</i> </li>
-                <li> <i class="fa fa-codiepie">odiepie</i>
-                </li>
-                <li> <i class="fa fa-adn">Adn</i> </li>
-                <li> <i class="fa fa-amazon">Amazon</i>
-                </li>
-                <li> <i class="fa fa-android">Android</i>
-                </li>
-                <li> <i class="fa fa-apple">Apple</i>
-                </li>
-                <li> <i class="fa fa-bandcamp">Bandcamp</i>
-                </li>
-                <li> <i class="fa fa-angellist">Angellist</i> </li>
-                <li> <i class="fa fa-behance">hance</i>
-                </li>
-                <li> <i class="fa fa-bitbucket">Bitbucket</i> </li>
-                <li> <i class="fa fa-white-tie">white-tie</i> </li>
-                <li> <i class="fa fa-codiepie">odiepie</i>
-                </li>
-                <li> <i class="fa fa-adn">Adn</i> </li>
-                <li> <i class="fa fa-amazon">Amazon</i>
-                </li>
-                <li> <i class="fa fa-android">Android</i>
-                </li>
-                <li> <i class="fa fa-apple">Apple</i>
-                </li>
-                <li> <i class="fa fa-bandcamp">Bandcamp</i>
-                </li>
-                <li> <i class="fa fa-angellist">Angellist</i> </li>
-                <li> <i class="fa fa-behance">hance</i>
-                </li>
-                <li> <i class="fa fa-bitbucket">Bitbucket</i> </li>
-                <li> <i class="fa fa-white-tie">white-tie</i> </li>
-                <li> <i class="fa fa-codiepie">odiepie</i>
-                </li>
-
-            </ul>
-        </marquee>
-        <!-- our partners ends -->
-
-        <!-- our services starts -->
-        <br>
-        <br>
-        <div class="treading-section container ">
-            <h2 class="text-center Roboto-font fw-bold">Our Services </h2>
-            <br><br>
-            <div class="slider-service">
-                <div class="carousel-1" data-flickity='{ "groupCells": true , "prevNextButtons":false }'>
-                    <div class="carousel-cell-1">
-                        <div class="card">
-                            <a href="service_detail_Akhilesh.html">
-                                <img src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-1">
-                        <div class="card">
-                            <a href="service_detail_Akhilesh.html">
-                                <img src="https://internshala-uploads.internshala.com/banner-images/home_new/pepsheco-student.png.webp"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-1">
-                        <div class="card">
-                            <a href="service_detail_Akhilesh.html">
-                                <img src="https://internshala-uploads.internshala.com/banner-images/home_new/branch_mar24-student.png.webp"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="carousel-cell-1">
-                        <div class="card">
-                            <a href="service_detail_Akhilesh.html">
-                                <img src="https://internshala-uploads.internshala.com/banner-images/home_new/int_opps-student.png.webp"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-1">
-                        <div class="card">
-                            <a href="service_detail_Akhilesh.html">
-                                <img src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-1">
-                        <div class="card">
-                            <a href="service_detail_Akhilesh.html">
-                                <img src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
+    <div class="aboutus">
+        <div class="container Roboto-font ">
+            <br>
+            <h2 class="text-center Roboto-font fw-bold" id="AboutUs">AboutUs</h2>
+            <div class="gs">
+                <div>
+                    <img src="https://www.heliware.co.in/assets/images/Frame%20104.png" width="100%" class="box-img"
+                        alt="">
                 </div>
+                <div class=" box teal my-5  px-5">
 
-            </div>
-        </div>
-        <!-- our services ends -->
+                    <h1>heading 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat officiis ducimus perferendis
+                        dicta
+                        cupiditate corrupti dolores, minima, numquam sint odit dolorem distinctio suscipit. Facere
+                        quibusdam
+                        assumenda, maxime ipsum repellendus, eos aliquid labore, expedita minima sapiente corrupti
+                        explicabo
+                        unde accusamus sunt quaerat veniam eius voluptate incidunt pariatur deleniti architecto? Quas,
+                        obcaecati.</p>
 
-        <!-- our programs starts -->
-        <br>
+                    <h1>heading 2</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptas eius quae nesciunt
+                        accusantium, fuga cum, ex architecto quo natus, saepe ratione enim quibusdam. Dolore blanditiis
+                        dolorum autem quia tempore.</p>
 
-        <br>
-        <div class="treading-section container lg  pb-5 pt-5">
-            <h2 class="text-center Roboto-font fw-bold">Our Programs </h2>
-            <br><br>
-            <div class="slider-programs">
-                <div class="carousel-1" data-flickity='{ "groupCells": true , "prevNextButtons":false}'>
-                    <div class="carousel-cell-1">
-                        <div class="card">
-                            <a href="prog_detail_Mihir_T5.html">
-                                <img src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-1">
-                        <div class="card">
-                            <a href="prog_detail_Mihir_T5.html">
-                                <img src="https://internshala-uploads.internshala.com/banner-images/home_new/pepsheco-student.png.webp"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-1">
-                        <div class="card">
-                            <a href="prog_detail_Mihir_T5.html">
-                                <img src="https://internshala-uploads.internshala.com/banner-images/home_new/branch_mar24-student.png.webp"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
+                    <h1>heading 3</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, molestiae! Illo,
+                        tempore
+                        culpa. Aliquid deleniti ipsa saepe fugiat voluptates similique perspiciatis laborum. Veritatis
+                        similique a, repellat dolor vitae beatae nobis.</p>
 
-                    <div class="carousel-cell-1">
-                        <div class="card">
-                            <a href="prog_detail_Mihir_T5.html">
-                                <img src="https://internshala-uploads.internshala.com/banner-images/home_new/int_opps-student.png.webp"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-1">
-                        <div class="card">
-                            <a href="prog_detail_Mihir_T5.html">
-                                <img src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-1">
-                        <div class="card">
-                            <a href="prog_detail_Mihir_T5.html">
-                                <img src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
+                    <h1>heading 4</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nihil cupiditate consequuntur
+                        aliquam
+                        a magnam in obcaecati quo libero harum quas unde, totam odit, doloribus, molestias excepturi
+                        saepe
+                        nulla beatae.</p>
+
                 </div>
-
             </div>
         </div>
-        <!-- our services ends -->
+    </div>
+    <!-- AboutUs ends-->
+    <!-- our partners -->
+    <br><br>
+    <h2 class="text-center Roboto-font fw-bold">Our Partners</h2>
+    <marquee class="marquee" scrollamount="5" behavior="infinite" loop="" direction="left">
+        <ul class="d-flex justify-content-around">
+            <li> <i class="fa fa-adn">Adn</i> </li>
+            <li> <i class="fa fa-amazon">Amazon</i>
+            </li>
+            <li> <i class="fa fa-android">Android</i>
+            </li>
+            <li> <i class="fa fa-apple">Apple</i>
+            </li>
+            <li active> <i class="fa fa-bandcamp">Bandcamp</i>
+            </li>
+            <li> <i class="fa fa-angellist">Angellist</i> </li>
+            <li> <i class="fa fa-behance">hance</i>
+            </li>
+            <li> <i class="fa fa-bitbucket">Bitbucket</i> </li>
+            <li> <i class="fa fa-white-tie">white-tie</i> </li>
+            <li> <i class="fa fa-codiepie">odiepie</i>
+            </li>
+            <li> <i class="fa fa-adn">Adn</i> </li>
+            <li> <i class="fa fa-amazon">Amazon</i>
+            </li>
+            <li> <i class="fa fa-android">Android</i>
+            </li>
+            <li> <i class="fa fa-apple">Apple</i>
+            </li>
+            <li> <i class="fa fa-bandcamp">Bandcamp</i>
+            </li>
+            <li> <i class="fa fa-angellist">Angellist</i> </li>
+            <li> <i class="fa fa-behance">hance</i>
+            </li>
+            <li> <i class="fa fa-bitbucket">Bitbucket</i> </li>
+            <li> <i class="fa fa-white-tie">white-tie</i> </li>
+            <li> <i class="fa fa-codiepie">odiepie</i>
+            </li>
+            <li> <i class="fa fa-adn">Adn</i> </li>
+            <li> <i class="fa fa-amazon">Amazon</i>
+            </li>
+            <li> <i class="fa fa-android">Android</i>
+            </li>
+            <li> <i class="fa fa-apple">Apple</i>
+            </li>
+            <li> <i class="fa fa-bandcamp">Bandcamp</i>
+            </li>
+            <li> <i class="fa fa-angellist">Angellist</i> </li>
+            <li> <i class="fa fa-behance">hance</i>
+            </li>
+            <li> <i class="fa fa-bitbucket">Bitbucket</i> </li>
+            <li> <i class="fa fa-white-tie">white-tie</i> </li>
+            <li> <i class="fa fa-codiepie">odiepie</i>
+            </li>
 
-        <!-- Our Achievements starts -->
-        <br>
-        <div class="treading-section container  pb-5 pt-5 ">
-            <h2 class="text-center Roboto-font fw-bold">Our Achievements</h2>
-            <br><br>
-            <div class="slider">
-                <div class="carousel-2" data-flickity='{ "groupCells": true  , "prevNextButtons": false }'>
-                    <div class="carousel-cell-2">
-                        <div class="card">
-                            <a href="#">
-                                <img src="https://www.sxsw.com/wp-content/uploads/2019/03/Winning-teams-of-the-2019-SXSW-Hackathon-Photo-by-Kenneth-Eke-768x432.jpg"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-2">
-                        <div class="card">
-                            <a href="#">
-                                <img src="https://www.channelnews.com.au/wp-content/uploads/2021/05/bezos.jpg"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-2">
-                        <div class="card">
-                            <a href="#">
-                                <img src="https://th.bing.com/th/id/OIP.ijWHodVO6EMWwuj8gL8qxQHaFO?rs=1&pid=ImgDetMain"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
+        </ul>
+    </marquee>
+    <!-- our partners ends -->
 
-                    <div class="carousel-cell-2">
-                        <div class="card">
-                            <a href="#">
-                                <img src="https://th.bing.com/th/id/OIP.Mw_m_hdv5ScxZucZNPVoLQHaEK?rs=1&pid=ImgDetMain"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-2">
-                        <div class="card">
-                            <a href="#">
-                                <img src="https://inurture.co.in/wp-content/uploads/2020/08/Rathinam-Banner-post-839x429.jpg"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-2">
-                        <div class="card">
-                            <a href="#">
-                                <img src="https://2.bp.blogspot.com/-rNF3-ZBQzk4/WCG5ciBAGkI/AAAAAAAAC0w/EiVibmfucVY8juvemklJo1VgOAVqG75fACK4B/s1600/Winners%2BOf%2BHackathon%2BReceives%2BAwards%2Bof%2B1%252C000%252C000%2BNaira%2Bfrom%2BFacebook.jpeg"
-                                    class="card-img-top" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+    <!-- our services starts -->
+    <br>
+    <br>
+    <h2 class="text-center Roboto-font fw-bold">Our services </h2>
+    <div class="treading-section container lg  pb-5 pt-5 center">
 
-            </div>
-        </div>
-        <!-- Our Achievements ends -->
-
-        <!-- blogs start-->
-        <div class="treading-section container pb-5 pt-5 ">
-            <h2 class="text-center Roboto-font fw-bold" id="blogs">Blogs</h2>
-            <br><br>
-            <div class="slider">
-                <div class="carousel-3" data-flickity='{ "groupCells": true  , "prevNextButtons": false }'>
-                    <div class="carousel-cell-3">
-                        <div class="card">
-                            <img src="https://i0.wp.com/godiygo.com/wp-content/uploads/2017/11/magnificent-diy-rustic-home-decor-ideas-on-a-budget-13.jpg?w=822&ssl=1"
+        <div class="slider-programs">
+            <div class="carousel-1" data-flickity='{ "wrapAround":true, "prevNextButtons":false}'>
+                <div class="carousel-cell-1">
+                    <div class="">
+                        <a href="#">
+                            <img src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png"
                                 class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">10 Easy DIY Home Decor Ideas</h5>
-                                <p class="card-text">Get inspired with these simple and budget-friendly home decor
-                                    projects to transform your living space.
-                                </p>
-                                <a href="blog_detail_Harsh_T6.html" class="btn btn teal">Read More</a>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-cell-1">
+                    <div class="">
+                        <a href="#">
+                            <img src="https://internshala-uploads.internshala.com/banner-images/home_new/pepsheco-student.png.webp"
+                                class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-cell-1">
+                    <div class="">
+                        <a href="#">
+                            <img src="https://internshala-uploads.internshala.com/banner-images/home_new/branch_mar24-student.png.webp"
+                                class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-cell-1">
+                    <div class="">
+                        <a href="#">
+                            <img src="https://internshala-uploads.internshala.com/banner-images/home_new/int_opps-student.png.webp"
+                                class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-cell-1">
+                    <div class="">
+                        <a href="#">
+                            <img src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png"
+                                class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-cell-1">
+                    <div class="">
+                        <a href="#">
+                            <img src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png"
+                                class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- our services ends -->
+
+    <!-- our programs starts -->
+    <br>
+    <br>
+    <h2 class="text-center Roboto-font fw-bold">Our Programs </h2>
+    <div class="treading-section container lg  pb-5 pt-5 center">
+
+        <div class="slider-programs">
+            <div class="carousel-1" data-flickity='{ "wrapAround":true, "prevNextButtons":false}'>
+                <div class="carousel-cell-1">
+                    <div class="">
+                        <a href="#">
+                            <img src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png"
+                                class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-cell-1">
+                    <div class="">
+                        <a href="#">
+                            <img src="https://internshala-uploads.internshala.com/banner-images/home_new/pepsheco-student.png.webp"
+                                class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-cell-1">
+                    <div class="">
+                        <a href="#">
+                            <img src="https://internshala-uploads.internshala.com/banner-images/home_new/branch_mar24-student.png.webp"
+                                class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-cell-1">
+                    <div class="">
+                        <a href="#">
+                            <img src="https://internshala-uploads.internshala.com/banner-images/home_new/int_opps-student.png.webp"
+                                class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-cell-1">
+                    <div class="">
+                        <a href="#">
+                            <img src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png"
+                                class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-cell-1">
+                    <div class="">
+                        <a href="#">
+                            <img src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png"
+                                class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- our programs ends -->
+
+    <!-- Our Achievements starts -->
+    <br><br>
+    <h2 class="text-center Roboto-font fw-bold">Our Achievements</h2>
+    <div class="treading-section container  pb-5 pt-5 center ">
+
+        <div class="slider">
+            <div class="carousel-1" data-flickity='{ "wrapAround":true , "prevNextButtons": false }'>
+                <div class="carousel-cell-1">
+
+                    <a href="#">
+                        <img src="https://www.sxsw.com/wp-content/uploads/2019/03/Winning-teams-of-the-2019-SXSW-Hackathon-Photo-by-Kenneth-Eke-768x432.jpg"
+                            class="card-img-top" alt="...">
+                    </a>
+
+                </div>
+                <div class="carousel-cell-1">
+
+                    <a href="#">
+                        <img src="https://www.channelnews.com.au/wp-content/uploads/2021/05/bezos.jpg"
+                            class="card-img-top" alt="...">
+                    </a>
+
+                </div>
+                <div class="carousel-cell-1">
+
+                    <a href="#">
+                        <img src="https://th.bing.com/th/id/OIP.ijWHodVO6EMWwuj8gL8qxQHaFO?rs=1&pid=ImgDetMain"
+                            class="card-img-top" alt="...">
+                    </a>
+
+                </div>
+
+                <div class="carousel-cell-1">
+
+                    <a href="#">
+                        <img src="https://th.bing.com/th/id/OIP.Mw_m_hdv5ScxZucZNPVoLQHaEK?rs=1&pid=ImgDetMain"
+                            class="card-img-top" alt="...">
+                    </a>
+
+                </div>
+                <div class="carousel-cell-1">
+
+                    <a href="#">
+                        <img src="https://inurture.co.in/wp-content/uploads/2020/08/Rathinam-Banner-post-839x429.jpg"
+                            class="card-img-top" alt="...">
+                    </a>
+
+                </div>
+                <div class="carousel-cell-1">
+
+                    <a href="#">
+                        <img src="https://2.bp.blogspot.com/-rNF3-ZBQzk4/WCG5ciBAGkI/AAAAAAAAC0w/EiVibmfucVY8juvemklJo1VgOAVqG75fACK4B/s1600/Winners%2BOf%2BHackathon%2BReceives%2BAwards%2Bof%2B1%252C000%252C000%2BNaira%2Bfrom%2BFacebook.jpeg"
+                            class="card-img-top" alt="...">
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Our Achievements ends -->
+    <br><br>
+    <!-- blogs start-->
+    <h2 class="text-center Roboto-font fw-bold" id="blogs">Blogs</h2>
+    <div class="treading-section container pb-5 pt-5 center">
+
+        <div class="slider ">
+            <div class="carousel-3" data-flickity='{ "wrapAround":true , "prevNextButtons": false }'>
+                <div class="carousel-cell-3">
+                    <div class="card">
+                        <img src="https://i0.wp.com/godiygo.com/wp-content/uploads/2017/11/magnificent-diy-rustic-home-decor-ideas-on-a-budget-13.jpg?w=822&ssl=1"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">10 Easy DIY Home Decor Ideas</h5>
+                            <p class="card-text">Get inspired with these simple and budget-friendly home
+                                decor
+                                projects to transform your living space.
+                            </p>
+                            <a href="#" class="btn btn teal">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell-3">
+                    <div class="card">
+                        <img src="https://i2.wp.com/blog.backtotheroots.com/wp-content/uploads/2018/05/iStock-636075448.jpg?fit=1987%2C1509&ssl=1"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">The Ultimate Guide to Indoor Gardening</h5>
+                            <p class="card-text">Learn how to cultivate a thriving indoor garden, even
+                                with limited
+                                space, and bring greenery into your home.</p>
+                            <a href="#" class="btn teal">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell-3">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.aJ5--U455FcbHHs3fxdqDwHaE8?rs=1&pid=ImgDetMain"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Effective Communication Skills for Professionals</h5>
+                            <p class="card-text">Master the art of communication in the workplace with
+                                these
+                                practical tips and strategies.</p>
+                            <a href="#" class="btn btn teal">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-cell-3">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.Xut9zgFCFViOZwcNG-cjtAHaHa?rs=1&pid=ImgDetMain"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">5 Quick and Healthy Dinner Recipes</h5>
+                            <p class="card-text">Discover tasty and nutritious dinner ideas that can be
+                                prepared in
+                                no time, perfect for busy weeknights.</p>
+                            <a href="#" class="btn btn teal">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell-3">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.P2j_L4vEvjsZu3b5y7YuXQHaEK?rs=1&pid=ImgDetMain"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Introduction to Sustainable Living</h5>
+                            <p class="card-text">Explore simple ways to adopt a more sustainable
+                                lifestyle and
+                                reduce your environmental footprint.
+                            </p>
+                            <a href="#" class="btn btn teal">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell-3">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.JNJhQMCyRCwIvyxSsiKSXQHaEK?rs=1&pid=ImgDetMain"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beginner's Guide to Meditation</h5>
+                            <p class="card-text">Discover the basics of meditation and how to
+                                incorporate
+                                mindfulness into your daily routine.</p>
+                            <a href="#" class="btn btn teal">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- blogs ends -->
+    <!-- partner with us -->
+    <div class="partner container">
+        <div class="text">
+            <h3><b>Partner with PREDULIVE</b></h3>
+            <h5>Grow your business by becoming a member of the PREDULIVE Partner Network</h5>
+            <button class="btn  partner-btn">Join our Partner Program</button>
+        </div>
+        <div class="partner-img">
+            <img src="./kisspng-computer-icons-handshake-clip-art-hand-shake-5ac4a39ac997e7.8523924515228363788257.png"
+                height="200px" width="300px" alt="">
+        </div>
+    </div>
+    <br>
+    <!-- partner with us -->
+
+    <!-- footer -->
+    <footer class=" mt-md-5 pt-5 border-top"
+        style="background-color: rgba(20, 20, 20, 0.926); color: white; width: 100%; ">
+
+
+        <div class="container  ">
+            <div class="gs">
+                <div class="row">
+                    <div class="col">
+                        <h1>PREDULIVE</h1>
+                        <div class="map">
+                            <img src="https://www.heliware.co.in/assets/images/map.webp" class="map" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="d-flex">
+                            <div class="col-2 col-md mx-5">
+                                <h5>Features</h5>
+                                <ul class="list-unstyled text-small">
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool
+                                            stuff</a></li>
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random
+                                            feature</a></li>
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team
+                                            feature</a></li>
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for
+                                            developers</a></li>
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another
+                                            one</a></li>
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last
+                                            time</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-4 col-md">
+                                <h5>Resources</h5>
+                                <ul class="list-unstyled text-small">
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                                            href="#">Resource</a>
+                                    </li>
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource
+                                            name</a></li>
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another
+                                            resource</a>
+                                    </li>
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final
+                                            resource</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-3 ">
+                                <h5>About</h5>
+                                <ul class="list-unstyled text-small">
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a>
+                                    </li>
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                                            href="#">Locations</a>
+                                    </li>
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a>
+                                    </li>
+                                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-cell-3">
-                        <div class="card">
-                            <img src="https://i2.wp.com/blog.backtotheroots.com/wp-content/uploads/2018/05/iStock-636075448.jpg?fit=1987%2C1509&ssl=1"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">The Ultimate Guide to Indoor Gardening</h5>
-                                <p class="card-text">Learn how to cultivate a thriving indoor garden, even with limited
-                                    space, and bring greenery into your home.</p>
-                                <a href="#" class="btn btn teal">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-3">
-                        <div class="card">
-                            <img src="https://th.bing.com/th/id/OIP.aJ5--U455FcbHHs3fxdqDwHaE8?rs=1&pid=ImgDetMain"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Effective Communication Skills for Professionals</h5>
-                                <p class="card-text">Master the art of communication in the workplace with these
-                                    practical tips and strategies.</p>
-                                <a href="blog_detail_Harsh_T6.html" class="btn btn teal">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-cell-3">
-                        <div class="card">
-                            <img src="https://th.bing.com/th/id/OIP.Xut9zgFCFViOZwcNG-cjtAHaHa?rs=1&pid=ImgDetMain"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">5 Quick and Healthy Dinner Recipes</h5>
-                                <p class="card-text">Discover tasty and nutritious dinner ideas that can be prepared in
-                                    no time, perfect for busy weeknights.</p>
-                                <a href="blog_detail_Harsh_T6.html" class="btn btn teal">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-3">
-                        <div class="card">
-                            <img src="https://th.bing.com/th/id/OIP.P2j_L4vEvjsZu3b5y7YuXQHaEK?rs=1&pid=ImgDetMain"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Introduction to Sustainable Living</h5>
-                                <p class="card-text">Explore simple ways to adopt a more sustainable lifestyle and
-                                    reduce your environmental footprint.
-                                </p>
-                                <a href="blog_detail_Harsh_T6.html" class="btn btn teal">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-cell-3">
-                        <div class="card">
-                            <img src="https://th.bing.com/th/id/OIP.JNJhQMCyRCwIvyxSsiKSXQHaEK?rs=1&pid=ImgDetMain"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Beginner's Guide to Meditation</h5>
-                                <p class="card-text">Discover the basics of meditation and how to incorporate
-                                    mindfulness into your daily routine.</p>
-                                <a href="blog_detail_Harsh_T6.html" class="btn btn teal">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-
             </div>
         </div>
-        <!-- blogs ends -->
-        <!-- partner with us -->
-        <div class="partner container">
-            <div class="text">
-                <h3><b>Partner with PREDULIVE</b></h3>
-                <h5>Grow your business by becoming a member of the PREDULIVE Partner Network</h5>
-                <button class="btn  partner-btn">Join our Partner Program</button>
-            </div>
-            <div class="partner-img">
-                <img src="assets/img/kisspng-computer-icons-handshake-clip-art-hand-shake-5ac4a39ac997e7.8523924515228363788257.png"
-                    height="200px" width="300px" alt="">
-            </div>
-        </div>
-        <br>
-        <!-- partner with us -->
 
-        <!-- footer -->
-        <footer class=" mt-md-5 pt-5 border-top"
-            style="background-color: rgba(20, 20, 20, 0.926); color: white; width: 100%; ">
-            <div class="row" style="margin-left: 50px;">
-                <div class="col-12 col-md">
-                    <h1>PREDULIVE</h1>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>Features</h5>
-                    <ul class="list-unstyled text-small">
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for
-                                developers</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>Resources</h5>
-                    <ul class="list-unstyled text-small">
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a>
-                        </li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>About</h5>
-                    <ul class="list-unstyled text-small">
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-        <!-- footer -->
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-        <script src="assets/js/index_Kartik.js"></script>
+
+
+    </footer>
+    <!-- footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
 </body>
 
 </html>
