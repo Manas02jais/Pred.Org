@@ -1,0 +1,581 @@
+.buy-section-container{
+    background-color:rgb(7, 187, 142);
+    height:95vh;
+    width:170vh;
+    margin-left: 15vh;
+    margin-top:3vh;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+.buy-text-section{
+    width:55%;
+}
+.heading-main{
+    background-color:rgb(248, 224, 41);
+    display: block;
+    height:6vh;
+    width: 55vh;
+    font-size: 3vh;
+    color: rgb(2, 75, 2);
+    margin-top: 5vh;
+    margin-left: 4vh;
+    border-radius:5px;
+    text-align: center;
+    padding:1vh;
+    font-family: Sans-serif;
+}
+.course-heading{
+    font-size:7vh;
+    margin-left: 4vh;
+    color: white;
+    font-weight: bold;
+    font-family: 'Inter var experimental', sans-serif;
+}
+.course-Intro{
+    font-size:2.8vh;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    color: white;
+    font-weight: bold;
+    font-family: 'Inter var experimental', sans-serif;
+}
+.language-selection{
+    margin-top: 2vh;
+    margin-left: 4vh;
+    font-size: 3vh;
+}
+.speaker-img{
+    background-color: white;
+    font-size: 4vh;
+    border-radius: 4vh;
+    border: 5px solid rgb(121, 248, 214);
+    padding:1vh;
+}
+.rating-section{
+    margin-top:4vh;
+    margin-bottom: 4h;
+}
+.rating-1{
+    background-color:white;
+    font-size: 4vh;
+    border-radius: 1.8vh;
+    padding: 1vh;
+    margin-left: 4vh;
+}
+.rating-2{
+    background-color:white;
+    font-size: 2.6vh;
+    border-radius: 1.8vh;
+    padding: 1vh;
+    margin-left: 4vh;
+    margin-top: 4vh;
+}
+.buy-section-form{
+    background-color:white;
+    height:85vh;
+    width: 60vh;
+    padding-left: 5vh;
+    padding-top: 3vh;
+    margin-top: 5vh;
+    margin-left: 7vh;
+    border-radius: 3px;
+}
+.google-login{
+    height:5.5vh;
+    width:50vh;
+    background-color: white;
+    color:rgb(67, 63, 63);
+    border: 1px solid rgb(167, 164, 164);
+    font-size: 3vh;
+    font-family: 'Inter var experimental', sans-serif;
+}
+.partion{
+    margin-top:1vh;
+    font-size: 3vh;
+    text-align: center;
+}
+.email-heading{
+    font-size: 2.7vh;
+    margin-bottom: 0px;
+}
+.email-holder{
+    height:4.5vh;
+    width:50vh;
+    margin-top:1vh;
+    padding-left: 1vh;
+}
+.password-heading{
+    font-size: 2.7vh;
+    margin-bottom: 0px;   
+}
+.password-holder{
+    height:4.5vh;
+    width:50vh;
+    margin-top:1vh;
+    padding-left: 1vh;
+}
+.name-section,.courseSelection-section{
+    display: flex;
+    flex-direction: row;
+}
+.firstName-heading,.number-heading{
+    font-size: 2.7vh;
+    margin-bottom: 0px;   
+}
+.firstName-holder,.lastName-holder{
+    width: 24vh;
+    margin-right: 2vh;
+}
+.lastName-heading{
+    font-size: 2.7vh;
+    margin-bottom: 0px;
+}
+.country-code{
+    width:8vh;
+}
+.number-holder{
+    width:42vh
+}
+
+.coupon-heading,.batchDate-heading{
+    font-size: 2.7vh;
+    margin-bottom: 0px;
+}
+.coupon-holder,.batch-holder{
+    margin-top: 1vh;
+    width:23vh;
+    margin-right: 1vh;
+    height:4vh;
+}
+.reason-heading{
+    font-size: 2.7vh;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.reasons{
+    height:4.5vh;
+    width:50vh;
+    margin-top:1vh;
+    padding-left: 1vh;
+    outline:none;
+}
+.price{
+    margin-top:1vh;
+    font-size: 3vh;
+}
+.enroll-btn{
+    height:5vh;
+    width:50vh;
+    outline: none;
+    background-color:rgb(21, 144, 188);
+    border: none;
+    color:white;
+    font-size: 3vh;
+    border-radius: 2px;
+}
+.program-highlight-section{
+    margin-top:5vh;
+}
+.heading-program-hightlight{
+    color:rgb(45, 44, 44);
+    font-weight:bold;
+    font-size: 6vh;
+    text-align: center;
+}
+.hightlights-conatiner{
+    display: flex;
+    flex-direction: row;
+    font-size: 3vh;
+}
+.hight-lights{
+    margin-left: 25vh;
+}
+.high-light-1{
+    display: flex;
+    flex-direction: row;
+}
+.img-section-highlights{
+    align-items: center;
+    padding:1vh;
+    height: 7vh;
+    margin-right: 3vh;
+}
+.heading-points-highlight{
+    color:black;
+}
+.sub-intro{
+    color: rgb(73, 72, 72);
+}
+.learning-section{
+    display: flex;
+    flex-direction: row;
+    margin-left:25vh;
+}
+.learning-text-section{
+    width: 50%;
+}
+.heading-learning-section{
+    color: black;
+    font-weight: bold;
+    font-size: 6vh;
+}
+.learning-note-1{
+    color: rgb(35, 33, 33);
+    font-size: 4vh;
+}
+.specification-one{
+    color:rgb(83, 82, 82);
+    font-size: 3vh;
+}
+.rewards-section{
+    display: flex;
+    flex-direction: row;
+    margin-left:24vh;
+    margin-top: 5vh;
+}
+.img-rewards-1{
+    width: 50%;
+}
+.heading-rewards-main{
+    color:black;
+    font-weight: bold;
+    font-size:5vh;
+    text-align: center;
+    margin-top:6vh;
+}
+.reward-heading{
+    font-weight: bold;
+    margin-left: 2vh;
+}
+.rewars-description{
+    font-size:3vh;
+    list-style:disc
+}
+
+.Faq-heading{
+    color:rgb(40, 39, 39);
+    font-size: 6vh;
+    font-weight: bold;
+    text-align:center; 
+}
+.faq-question-section,.faq-question-section-1,.faq-question-section-2,.faq-question-section-3,.faq-question-section-4{
+    margin-left: 25vh;
+    font-size: 3vh;
+    width:180vh;
+}
+.faq-question{
+    color:rgb(37, 36, 36);
+    font-weight:bold;
+}
+.faq-add-symbol,.faq-add-symbol-1,.faq-add-symbol-2,.faq-add-symbol-3,.faq-add-symbol-4{
+    margin-left: 135vh;
+}/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    .buy-section-container{
+        display: flex;
+        flex-direction: column;
+        width:160vh;
+        height:250vh;
+        padding:none;
+        margin: 0px;
+    }
+    .heading-main{
+        height: 10vh;
+        font-size: 6vh;
+        width: 100vh;
+    }
+    .course-heading{
+        width: 100vh;
+        font-size:9vh;
+    }
+    .course-Intro{
+        font-size:6vh;
+        width: 150vh;
+    }
+    .language-selection{
+        font-size: 7vh;
+    }
+    .rating-section{
+        width: 150vh;
+    }
+    .rating-1{
+        font-size: 6vh;  
+    }
+    .rating-2{
+        display: none;
+    }
+    .buy-section-form{
+        width: 85vh;
+        height: 120vh;
+    }
+    .google-login{
+        height: 6vh;
+        font-size: 5vh;
+        width: 75vh;   
+        margin-bottom: 1vh; 
+    }
+    .partion{
+        font-size: 5vh;
+        padding-top: 1vh;
+    }
+    .email-heading{
+        font-size: 5vh;
+    }
+    .email-holder{
+        font-size: 5vh;
+        width: 50vh;
+        height: 5vh;
+    }
+    .password-heading{
+        font-size: 5vh;
+    }
+    .password-holder{
+        font-size: 5vh;
+        width: 50vh;
+        height: 5vh;
+        margin-bottom: 1vh;
+    }
+    .firstName-heading{
+        font-size: 5vh;
+    }
+    .firstName-holder{
+        font-size: 5vh;
+        width: 25vh;
+        height: 5vh;
+        margin-top: .5vh;
+    }
+    .lastName-heading{
+        font-size: 5vh;
+    }
+    .lastName-holder{
+        font-size: 5vh;
+        width: 23vh;
+        height: 5vh;
+        margin-top: .5vh;
+    }
+    .number-heading{
+        font-size: 5vh;
+        margin-bottom: .5vh;
+    }
+    .country-code{
+        font-size: 5vh;
+        width: 9vh;
+        height: 5vh;
+    }
+    .number-holder{
+        font-size: 5vh;
+        width: 36vh;
+        height: 5vh;
+    }
+    .coupon-heading{
+        font-size: 5vh;
+    }
+    .coupon-holder{
+        font-size: 5vh;
+        width: 25vh;
+        height: 5vh;
+        margin-top: .5vh;
+    }
+    .batchDate-heading{
+        font-size: 5vh;
+        margin-left: 1vh;
+    }
+    .batch-holder{
+        font-size: 5vh;
+        width: 23vh;
+        height: 5vh;
+        margin-top: .5vh;
+    }
+    .reason-heading{
+        font-size: 4.5vh;
+        width: 86vh;
+        height: 5vh;
+    }
+    .reasons{
+        font-size: 5vh;
+        width: 56vh;
+        height: 5vh;
+    }
+    .price{
+        font-size: 5vh;
+    }
+    .enroll-btn{
+        width: 66vh;
+        height: 6vh;
+        font-size: 5vh;
+        margin-top: 2vh;
+    }
+    .heading-program-hightlight{
+        margin-left: 35vh;
+        width: 90vh;
+        margin-bottom: 2vh;
+    }
+    .hightlights-conatiner{
+        font-size: 5vh;
+    }
+    .hight-lights{
+        margin-left:13vh;
+    }
+    .program-highlight-section{
+        margin-left:0px;
+    }
+    .learning-section{
+        width:130vh;
+        margin-top: 4vh;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(109, 207, 249);
+        padding: 2vh;
+        margin-left: 20vh;
+    }
+    .learning-text-section{
+        width:100%;
+    }
+    .heading-learning-section{
+        font-size:8vh;
+    }
+    .learning-note-1{
+        font-size: 7vh;
+    }
+    .specification-one{
+        font-size:5vh;
+    }
+    .img-learning{
+        height: 50vh;
+        width: 60vh;
+        margin-left: 15vh;
+    }.heading-rewards-main{
+        font-size: 7vh;
+        margin-left: 40vh;
+        width: 60vh;
+    }
+    .rewards-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-rewards-1{
+        width: 80vh;
+        height: 60vh;
+        padding-left: 15vh;
+    }
+    .reward-heading{
+        font-size: 5.8vh;
+        width: 120vh;
+    }
+    .rewars-description{
+        font-size: 5vh;
+        width: 120vh;
+    }
+    .Faq-container{
+        width: 12vh;
+    }
+    .Faq-heading{
+        font-size: 5vh;
+        margin-left: 55vh;
+        width: 50vh;
+        margin-bottom: 3vh;
+    }
+    .faq-question-section,.faq-question-section-1,.faq-question-section-2,.faq-question-section-3,.faq-question-section-4{
+        width: 100vh;
+        font-size: 5vh;
+    }
+    .faq-add-symbol,.faq-add-symbol-1,.faq-add-symbol-2,.faq-add-symbol-3,.faq-add-symbol-4{
+        margin-left:30vh;
+    }
+}
+
+/* For tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .program-highlight-section{
+        width: 200vh;
+    }
+    .heading-program-hightlight{
+        font-size: 6vh;
+    }
+    .hight-lights{
+        margin-left: 20vh;
+        font-size: 5vh;
+    }
+    .learning-section{
+        width: 200vh;
+        margin-top: 2vh;
+    }
+    .heading-learning-section{
+        font-size: 6vh;
+        margin-bottom: 1vh;
+    }
+    .learning-note-1{
+        font-size: 5vh;
+    }
+    .specification-one{
+        font-size: 4vh;
+    }
+    .img-learning{
+        height: 55vh;
+        width: 65vh;
+        margin-top: 8vh;
+    }
+    .heading-rewards-main{
+        margin-left: 20vh;
+        width: 70vh;
+        font-size: 7vh;
+    }
+    .rewards-section{
+        width: 180vh;
+    }
+    .reward-heading{
+        font-size: 6vh;
+    }
+    .rewars-description{
+        font-size: 5vh;
+    }
+    .Faq-heading{
+        font-size: 7vh;
+        margin-left: 20vh;
+        width: 60vh;
+    }
+    .faq-question-section,.faq-question-section-1,.faq-question-section-2,.faq-question-section-3,.faq-question-section-4{
+        width: 190vh;
+        font-size: 5vh;
+    }
+    .faq-add-symbol,.faq-add-symbol-1,.faq-add-symbol-2,.faq-add-symbol-3,.faq-add-symbol-4{
+        margin-left:90vh;
+    }
+    .faq-answer{
+        width:150vh;
+    }
+}
+@media only screen and (min-width: 1026px) and (max-width: 1500px){
+    .heading-program-hightlight{
+        margin-left:40vh;
+    }
+    .reward-heading{
+        font-size: 4vh;
+    }
+    .heading-rewards-main{
+        margin-left:40vh;
+    }
+    .rewards-section{
+        width:160vh;
+    }
+    .reward-intro{
+        margin-left:8vh;
+    }
+    .learning-section{
+        width:160vh;
+    }
+    .img-learning{
+        margin-top: 8vh;
+    }
+    .faq-add-symbol,.faq-add-symbol-1,.faq-add-symbol-2,.faq-add-symbol-3,.faq-add-symbol-4{
+        margin-left:90vh;
+    }
+    .faq-answer{
+        width:130vh;
+    }
+    .subscription-form input{
+        font-size: 2.6vh;
+    }
+}
+

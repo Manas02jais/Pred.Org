@@ -1,0 +1,50 @@
+.latestartical{
+    border-bottom: 1px solid rgb(0,165,236);
+    border-left: 3px solid rgb(0,165,236);
+    padding: 10px;
+}
+.btnhiring{
+    font-size: 12px;
+    font-weight: bolder;
+    border: 1px solid #cbe7ff;
+   color: #1e5da6;
+   border-radius: 5px;
+  
+}
+.cardartical{
+    margin-top: 20px;
+border: none;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.headerpara{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.paragraphcard{
+    font-size: 12px;
+    font-weight: 700px !important;
+}
+.iconbottom{
+    font-size: 12px;
+}
+
+.right-paragraph {
+    text-align: right;
+  }
+  .end-of-paragraph {
+    margin-right: 0;
+  }
+  .intershipborder{
+    
+    border-bottom: 1px solid rgb(0,165,236);
+    border-left: 3px solid rgb(0,165,236);
+  }
+  .viewmorebtn{
+    text-decoration: none;
+    border: 1px solid rgb(0,165,236);
+    padding: 2px 12px 3px 12px;
+    font-size: 14px;
+    border-radius: 3px;
+
+  }
