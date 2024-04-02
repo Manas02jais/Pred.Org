@@ -61,9 +61,16 @@ body {
     height: 200px;
     overflow: hidden;
     text-overflow: ellipsis;
-
+    padding-bottom: 20px;
 }
 
+.read-btn {
+    position: absolute;
+    bottom: 20px;
+    /* Adjust as per your requirement */
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .carousel-3 {
     background-color: rgb(255, 255, 255);
