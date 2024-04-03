@@ -26,6 +26,7 @@ button{
 }
 
 
+
 #head{
   
     font-size: 40px;
@@ -43,4 +44,12 @@ button{
 
 span{
     display: flex;
+}
+
+/* logo stlyling */
+.navbar-brand {
+    border: 1px solid red;
+    /* height: 50%;
+    width: 50%; */
+    mix-blend-mode: multiply;
 }
