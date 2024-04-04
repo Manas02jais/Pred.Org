@@ -1,3 +1,7 @@
+
+
+
+
 .para1{
     font-size: 18px;
     line-height: 26px;
@@ -12,6 +16,7 @@
     font-size: 40px;
     font-weight: 800;
     color: #7f29c1;
+    margin-bottom: 60px;
 }
 .cardabout{
 
@@ -111,3 +116,31 @@ a{
   border: none;
 }
 /* navbar end */
+
+/* media query */
+@media(max-width: 600px){
+  .abouthead{
+    font-size: 30px;
+
+    margin: 0px;
+  }
+  .backgroundabout{
+    margin-top: 100px;
+padding: 20px;
+    
+  }
+  .para1{
+
+    text-align: center;
+  }
+  .fa-brands{
+    height: 8px;
+    width: 8px;
+padding: 9px;
+
+  }
+  .navbar-toggler-icon{
+   
+    
+  }
+}
