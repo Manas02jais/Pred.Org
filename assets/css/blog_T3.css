@@ -1,7 +1,12 @@
+.latestarticaltop{
+  margin-top: 100px;
+}
+
 .latestartical{
     border-bottom: 1px solid rgb(0,165,236);
     border-left: 3px solid rgb(0,165,236);
     padding: 10px;
+    
 }
 .btnhiring{
     font-size: 12px;
@@ -55,10 +60,8 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 .btn-margin {
   margin-left: 10px;
 }
-a{
-    color: white !important;
-    font-weight: bold;
-}
+
+
 .btn{
     background-color: #82caaf;
     border: none;
