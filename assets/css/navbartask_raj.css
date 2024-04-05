@@ -1,0 +1,137 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .nav-link {
+    padding-right: 30px !important;
+  }
+
+  a:hover {
+    color: blue !important;
+  }
+
+
+  .dropdown1 {
+    display: none;
+  }
+
+  ul li:hover .dropdown1 {
+    display: block;
+    position: absolute;
+
+    margin-left: -19px;
+    font-size: 14px;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    padding: 10px;
+
+
+    height: 450px;
+    width: 200px;
+  }
+
+  .dropdown1 ul li {
+    display: block;
+  }
+
+  .dropdown1 li {
+    padding: 10px;
+
+  }
+
+  .dropdown1 li:hover {
+    background-color: rgb(197, 245, 245);
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+  }
+
+  .dropdown1 ul {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  /* sumenu */
+  .submenu1 {
+    display: none;
+  }
+
+  .dropdown1 ul li:hover .submenu1 {
+    display: block;
+    position: absolute;
+    margin-left: 181px;
+    margin-top: -41px;
+    font-size: 14px;
+
+
+    width: 200px;
+    padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    height: 450px;
+
+  }
+
+  .submenu2 {
+    display: none;
+
+  }
+
+
+  .dropdown1 ul li:hover .submenu2 {
+    display: block;
+    position: absolute;
+    margin-left: 181px;
+    margin-top: -82px;
+    width: 200px;
+    font-size: 14px;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    height: 450px;
+
+
+  }
+
+  .submenu3 {
+    display: none;
+  }
+
+  .dropdown1 ul li:hover .submenu3 {
+    display: block;
+    position: absolute;
+    margin-left: 181px;
+    margin-top: -125px;
+    width: 200px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    height: 450px;
+
+    padding-left: 10px;
+
+  }
+
+  .submenu4 {
+    display: none;
+  }
+
+  .dropdown1 ul li:hover .submenu4 {
+    display: block;
+    position: absolute;
+    margin-left: 181px;
+    margin-top: -164px;
+    width: 200px;
+    font-size: 14px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+    padding-left: 10px;
+  }
+
+  .dropdown1 ul li .submenu1,
+  .submenu2,
+  .submenu3,
+  .submenu4 {
+    padding: 10px;
+  }
