@@ -1,0 +1,135 @@
+body {
+  background-color: #f8f8f8;
+}
+
+.btntouch {
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  height: 26px;
+  width: 84px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eafcff;
+}
+
+.chat-box {
+  padding: 0px;
+
+}
+
+.chat-messages {
+  height: 350px;
+  overflow-y: auto;
+}
+
+.card-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.message-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.message-container.user2 {
+  align-items: flex-end;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.message-bubble {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.message-bubble.user2 {
+  background-color: #DCF8C6;
+}
+
+.user-section {
+  padding-right: 15px;
+  padding-left: 0px;
+  max-height: calc(110vh - 200px);
+  overflow-y: auto;
+  border: 1px solid rgb(235, 226, 226);
+}
+
+.user-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.user-list-item {
+  cursor: pointer;
+  padding: 20px;
+  border: 1px solid rgb(247, 240, 240);
+}
+
+.user-list-item.active {
+  background-color: #f0f0f0;
+}
+
+.user-list-item:hover {
+  border-left: 3px solid #38a4e4;
+}
+
+@media (max-width: 768px) {
+  .user-section {
+    border-right: none;
+    padding-right: 0;
+    max-height: none;
+    max-height: calc(50vh - 200px);
+    overflow-y: auto;
+
+  }
+
+  .usersectionbox {
+    display: none;
+  }
+
+  .user-section {
+    display: none;
+  }
+
+}
+
+.chat-box-section {
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.chatbox {
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: 1px solid rgb(250, 246, 246);
+  background-color: white;
+}
+
+/* btn */
+/* Custom CSS for toggle button */
+.toggle-btn {
+  cursor: pointer;
+}
+
+.toggle-btn.active {
+  background-color: #007bff;
+  color: #fff;
+
+}
+
+.btn {
+  width: 120px;
+  border-radius: 50px;
+  border: 1px solid rgb(192, 179, 179);
+}
