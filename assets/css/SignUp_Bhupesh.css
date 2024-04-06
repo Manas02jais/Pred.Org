@@ -1,6 +1,6 @@
 
 body{
-    background-color: #fffefe;
+    background-color: #fbfaf8f4;
     color: #0f231c;
 }
 .h-01-bold{
@@ -45,11 +45,12 @@ background-color: #c9d9e8;
 }
 .nav{
     width:100%;
+    height: 100px;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#b7e0d1;
+    background-color:#e7f2f5;
     z-index: 999;
     padding: 10px 120px;
     
@@ -60,7 +61,7 @@ background-color: #c9d9e8;
 /* -----------------Hero Section------------------ */
 
 .hero-section{
-    background-color:#4faf8e;
+    background-color:#f1fdff;
     padding-top: 40px ;
     min-height:  750px;
 }
@@ -68,6 +69,7 @@ background-color: #c9d9e8;
 .registration-section {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding-top: 80px;
 
 }
@@ -80,7 +82,7 @@ background-color: #c9d9e8;
 
 .registration-form {
        background-color:    #dbefe8;
-       margin: 30px 0px 5px 0px;  
+       margin: 40px 0px 5px 0px;  
        padding: 40px;
        border-radius: 10px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
@@ -89,14 +91,9 @@ background-color: #c9d9e8;
 /* --------Responsive---------- */
  @media screen and (max-width: 767px) {
     .registration-section {
-      padding: 20px;
+      padding: 70px 20px;
       display: flex;
      justify-content: center;
-    }
-    .registration-form{
-        /* width: 100%;   */
-        /* border-radius: 0px; 
-        box-shadow: 0 0 0px rgba(0, 0, 0, 0); */
     }
     .nav{
         padding: 10px 20px;
@@ -106,23 +103,51 @@ background-color: #c9d9e8;
   /* ****************Hero-Section****************** */
 .banner{
     position: relative;
+    height: 100%;
+    margin-top: 20px;
+
 }
-a 
-.banner-text {
+
+
+.welcome-banner {
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%; /* or any other desired width */
+    max-width: 100%; /* ensure it doesn't go beyond the container */
+    /* height: 0;
+    padding-bottom: calc(100% * (1 / 2));  */
+    position: relative;
+    overflow: hidden;
+  }
+
+  .welcome-banner img {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+/* .banner-text {
     color: #333;
     padding: 0px 0px;
     text-align: center;
     font-size: 24px;
-    margin-left: 20px;
+    
     
 }
 .banner-text h2{
     text-transform: uppercase;
     display: block;
     text-align: center;
-    margin-top: 24px;
+    
     color: #0f231c;
-}
+} */
 
 /* button{
  width: 100%;
@@ -141,8 +166,8 @@ a
 
 /* ******Hassle-Free Section********** */
 .hassle-free{
-    padding-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     /* padding: 20px; */
 }
 
@@ -157,6 +182,7 @@ a
     .features-div{
         text-align: center;
         display: block;
+        /* margin-top: 20px; */
     }
     .feature-card{
         display: flex;
@@ -167,7 +193,7 @@ a
         cursor: pointer;
     }
     .features{
-        margin-top:6px;
+        margin-top: 40px;
         padding-top: 20px;
         font-size: 14px;
         color:#333;
@@ -278,7 +304,8 @@ a
 @media (max-width: 980px) {
 
 
-    .hassle-free{
+    .hassle-free{ 
+        padding-bottom: 30px;
         display: block;
         background-color:#b7e0d1;
     }
@@ -286,6 +313,10 @@ a
         font-weight: bold;
         color:#d7e0dc;
         font-size: x-large;
+    }
+
+    .features{
+        margin-top: 40px;
     }
     
     .features-description{
@@ -369,7 +400,7 @@ color: #83a6c7;
     background-color: #dbefe8;
     /* margin-top: 10px;
     margin-bottom:10px; */
-    padding: 20px 10px;
+    padding: 40px 10px;
     text-align: left;
     font-family: 'Inter var', sans-serif;
 }
@@ -388,9 +419,9 @@ color: #83a6c7;
     align-items: center;
     border: 1px solid #DDD;
     border-radius: 8px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding: 20px 2px;
+    margin-bottom: 30px;
+    margin-top: 46px;
+    padding: 40px 2px;
 }
 .candidates h4{
     font-weight: bold;
@@ -424,21 +455,26 @@ color: #83a6c7;
 
 .sponsors {
 	background-color: #f8f8f8d7;
-	height: 200px;
+	height: 275px;
 	display: block;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sponsors h2{
+    margin-bottom: 20px;
+
 }
 
 .wrapper {
-	background-color:#f8f8f8d7;
-	height: 130px;
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	padding: 0 20px;
+    background-color: #f8f8f8d7;
+    height: 125px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
 }
 
 .wrapper:before, .wrapper:after {
@@ -487,7 +523,7 @@ color: #83a6c7;
 /* ************faq **********************/
 .faq{
     margin: 0;
-    padding: 20px 20px 40px 20px;
+    padding: 40px 20px 40px 20px;
     background-color: #dbefe8;
    
 }
@@ -498,7 +534,8 @@ color: #83a6c7;
     line-height: 1.4;
     letter-spacing: -0.03em;
 }
-/* .questions{
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-} */
+.questions{
+  padding-top: 25px;
+  padding-bottom: 25px;
 
+}
