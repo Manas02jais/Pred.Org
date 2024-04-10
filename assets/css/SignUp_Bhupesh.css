@@ -132,26 +132,6 @@ background-color: #c9d9e8;
     height: 100%;
     object-fit: cover;
   }
-
-/* .banner-text {
-    color: #333;
-    padding: 0px 0px;
-    text-align: center;
-    font-size: 24px;
-    
-    
-}
-.banner-text h2{
-    text-transform: uppercase;
-    display: block;
-    text-align: center;
-    
-    color: #0f231c;
-} */
-
-/* button{
- width: 100%;
-} */
 .subheading-00{
     color:#efe8db;
     text-align: center;
@@ -325,7 +305,6 @@ background-color: #c9d9e8;
         align-items: center;
         justify-content:flex-start;
         gap: 1rem;
-        /* background-color:; */
         
     }
     .features-small-screen .feature-card{
@@ -337,25 +316,8 @@ background-color: #c9d9e8;
       
 
     }
-
-   
-
     .features-small-screen .feature-img-div {
-        /* max-width: 100%; */
-        /* position: relative;
-        /* overflow: scroll; */
-        /* box-sizing: border-box; */
-        /* background-color: #ccc; */
-        margin-bottom: 10px; */
-    }
-    .feature-img-div{
-        /* max-width: 768px;
-        height: 250px;
-        border-radius: 50px; */
-        /* object-fit: fill;
-        display: flex;
-        justify-content: center;
-         align-items: center; */
+        margin-bottom: 10px; 
     }
     .feature-img-div img{
         width: 100%;
@@ -375,24 +337,6 @@ background-color: #c9d9e8;
     }
 
 }
-/* .feature-card-body .text :hover{
-color: #83a6c7;
-} */
-
-
-/* hire form */
-/* .candidates{
-    display: flex;
-    gap: 10px;
-    border: solid #30303088;
-    border-radius: 10px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 80px;
-    
-} */
 
 
 /* ************whyhire*********** */
