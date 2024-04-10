@@ -66,9 +66,9 @@ body {
 
 .read-btn {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     /* Adjust as per your requirement */
-    left: 50%;
+    left: 70%;
     transform: translateX(-50%);
 }
 
@@ -201,7 +201,7 @@ body {
 }
 
 .aboutus {
-    background-color: #34795f;
+    
 }
 
 .center {
