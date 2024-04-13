@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- MDB-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="..\assets\css\internships-bhupesh.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="nav-content">
+        <a id="nav-btn">*nav-content*</a>
+    </div>
+    <section class="center">
+        <section class="search-section">
+            <div class="search-text">
+                <p> Learn and get expertise through Internships</p>
+            </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Eg. Marketing, Sales, Web Developer, etc." />
+                <button onclick="search()">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </section>
+        <section id="login-section" class="login-section">
+            <div class="form-container"> <span class="close-btn" id="closeBtn">&times;</span>
+                <ul class="nav nav-pills nav-justified mb-4" id="ex1" role="tablist">
+
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="tab-employer" data-mdb-pill-init href="#pills-employer"
+                            role="tab" aria-controls="pills-employer" aria-selected="true">Employer</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="tab-student" data-mdb-pill-init href="#pills-student" role="tab"
+                            aria-controls="pills-student" aria-selected="false">Student</a>
+                    </li>
+
+                </ul>
+                <!-- Pills content -->
+                <div class="tab-content">
+                    <div class="tab-pane fade" id="pills-student" role="tabpanel" aria-labelledby="tab-student">
+                        <!------------------------------------------- Login Student column------------------------------->
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+
+                                <div class="col-md-8 col-lg-8 col-xl-8">
+
+                                    <p class="login-head text-center h1 fw-bold">Login as a
+                                        Student</p>
+
+                                    <form class="mx-1 ">
+                                        <div class="text-center mb-3">
+                                            <p>Sign in with:</p>
+                                            <button data-mdb-ripple-init type="button"
+                                                class="btn btn-secondary btn-floating mx-1">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </button>
+
+                                            <button data-mdb-ripple-init type="button"
+                                                class="btn btn-secondary btn-floating mx-1">
+                                                <i class="fab fa-google"></i>
+                                            </button>
+
+                                            <button data-mdb-ripple-init type="button"
+                                                class="btn btn-secondary btn-floating mx-1">
+                                                <i class="fab fa-twitter"></i>
+                                            </button>
+
+                                            <button data-mdb-ripple-init type="button"
+                                                class="btn btn-secondary btn-floating mx-1">
+                                                <i class="fab fa-github"></i>
+                                            </button>
+                                        </div>
+
+                                        <p class="text-center">or:</p>
+
+                                        <!-- Email input -->
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <input type="email" id="loginName" class="form-control" />
+                                            <label class="form-label" for="loginName">Email or
+                                                username</label>
+                                        </div>
+
+                                        <!-- Password input -->
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <input type="password" id="loginPassword" class="form-control" />
+                                            <label class="form-label" for="loginPassword">Password</label>
+                                        </div>
+
+                                        <!-- 2 column grid layout -->
+                                        <div class="row mb-4">
+                                            <div class="col-md-6 d-flex justify-content-center">
+                                                <!-- Checkbox -->
+                                                <div class="form-check mb-3 mb-md-0">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="loginCheck" checked />
+                                                    <label class="form-check-label" for="loginCheck">
+                                                        Remember me </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 d-flex justify-content-center">
+                                                <!-- Simple link -->
+                                                <a href="#!">Forgot password?</a>
+                                            </div>
+                                        </div>
+
+                                        <!-- Submit button -->
+                                        <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+                                        <!-- Register buttons -->
+                                        <div class="text-center">
+                                            <p>Not a member? <a href="#!">Register</a></p>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------------------------------------- Login Student column------------------------------->
+
+                    </div>
+
+                    <div class="tab-pane fade  show active" id="pills-employer" role="tabpanel"
+                        aria-labelledby="tab-employer">
+
+                        <!------------------------------------------- Login Employer column------------------------------->
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+
+                                <div class="col-md-8 col-lg-8 col-xl-8 order-1 order-lg-1">
+
+                                    <p class="login-head text-center h1 fw-bold ">Login as an
+                                        Employer</p>
+
+                                    <form class="mx-1 ">
+                                        <div class="text-center mb-3">
+                                            <p>Sign in with:</p>
+                                            <button data-mdb-ripple-init type="button"
+                                                class="btn btn-secondary btn-floating mx-1">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </button>
+
+                                            <button data-mdb-ripple-init type="button"
+                                                class="btn btn-secondary btn-floating mx-1">
+                                                <i class="fab fa-google"></i>
+                                            </button>
+
+                                            <button data-mdb-ripple-init type="button"
+                                                class="btn btn-secondary btn-floating mx-1">
+                                                <i class="fab fa-twitter"></i>
+                                            </button>
+
+                                            <button data-mdb-ripple-init type="button"
+                                                class="btn btn-secondary btn-floating mx-1">
+                                                <i class="fab fa-github"></i>
+                                            </button>
+                                        </div>
+
+                                        <p class="text-center">or:</p>
+
+                                        <!-- Email input -->
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <input type="email" id="loginName" class="form-control" />
+                                            <label class="form-label" for="loginName">Employer Email or
+                                                username</label>
+                                        </div>
+
+                                        <!-- Password input -->
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <input type="password" id="loginPassword" class="form-control" />
+                                            <label class="form-label" for="loginPassword">Password</label>
+                                        </div>
+
+                                        <!-- 2 column grid layout -->
+                                        <div class="row mb-4">
+                                            <div class="col-md-6 d-flex justify-content-center">
+                                                <!-- Checkbox -->
+                                                <div class="form-check mb-3 mb-md-0">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="loginCheck" checked />
+                                                    <label class="form-check-label" for="loginCheck">
+                                                        Remember me </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 d-flex justify-content-center">
+                                                <!-- Simple link -->
+                                                <a href="#!">Forgot password?</a>
+                                            </div>
+                                        </div>
+
+                                        <!-- Submit button -->
+                                        <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+                                        <!-- Register buttons -->
+                                        <div class="text-center">
+                                            <p>Not a member? <a href="#!">Register</a></p>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------------------- Login Employer column------------------------------->
+                </div>
+
+            </div>
+        </section>
+        <div class="overlay" id="overlay"></div>
+        <section class="internship-section">
+            <div class="filter-box col-lg-4" id="filterContainer">
+                <span class="close-btn" id="closeBtn">&times;</span>
+                <div class="filter-header">
+                    <i class="fa fa-filter"></i>
+                    Filter
+                </div>
+                <div class="filter-topic filter-type">
+                    <div class="type heading">Type</div>
+                    <div class="type-option">
+
+                        <label>
+                            <input type="checkbox" name="type" value="Virtual">
+                            Virtual Internships
+                        </label>
+                        <label>
+                            <input type="checkbox" name="type" value="Online">
+                            Online Internships
+                        </label>
+                    </div>
+                </div>
+                <div class="filter-topic filter-location">
+                    <div class="location heading">Location..</div>
+                    <div class="searchLocation">
+                        <input type="text" id="locSearch" onkeyup="showLocations()" placeholder="City or Country" />
+                    </div>
+                    <div class="location-option">
+
+                        <li><input type="checkbox" id="city1" name="city" value="Agra"> <label for="city1">Agra</label>
+                        </li>
+                        <li><input type="checkbox" id="city2" name="city" value="Ahmedabad"> <label
+                                for="city2">Ahmedabad</label></li>
+                        <li><input type="checkbox" id="city3" name="city" value="Allahabad"> <label
+                                for="city3">Allahabad
+                                (Prayagraj)</label></li>
+                        <li><input type="checkbox" id="city4" name="city" value="Amritsar"> <label
+                                for="city4">Amritsar</label></li>
+                        <li><input type="checkbox" id="city5" name="city" value="Aurangabad"> <label
+                                for="city5">Aurangabad</label></li>
+                        <li><input type="checkbox" id="city6" name="city" value="Bangalore"> <label
+                                for="city6">Bangalore
+                                (Bengaluru)</label></li>
+                        <li><input type="checkbox" id="city7" name="city" value="Bhopal"> <label
+                                for="city7">Bhopal</label>
+                        </li>
+                        <li><input type="checkbox" id="city8" name="city" value="Bhubaneswar"> <label
+                                for="city8">Bhubaneswar</label></li>
+                        <li><input type="checkbox" id="city9" name="city" value="Chandigarh"> <label
+                                for="city9">Chandigarh</label></li>
+                        <li><input type="checkbox" id="city10" name="city" value="Chennai"> <label
+                                for="city10">Chennai</label></li>
+                        <li><input type="checkbox" id="city11" name="city" value="Coimbatore"> <label
+                                for="city11">Coimbatore</label></li>
+                        <li><input type="checkbox" id="city12" name="city" value="Delhi"> <label
+                                for="city12">Delhi</label>
+                        </li>
+                        <li><input type="checkbox" id="city13" name="city" value="Faridabad"> <label
+                                for="city13">Faridabad</label></li>
+                        <li><input type="checkbox" id="city14" name="city" value="Ghaziabad"> <label
+                                for="city14">Ghaziabad</label></li>
+                        <li><input type="checkbox" id="city15" name="city" value="Goa"> <label for="city15">Goa</label>
+                        </li>
+                        <li><input type="checkbox" id="city16" name="city" value="Gurgaon"> <label
+                                for="city16">Gurgaon</label></li>
+                        <li><input type="checkbox" id="city17" name="city" value="Guwahati"> <label
+                                for="city17">Guwahati</label></li>
+                        <li><input type="checkbox" id="city18" name="city" value="Hyderabad"> <label
+                                for="city18">Hyderabad</label></li>
+                        <li><input type="checkbox" id="city19" name="city" value="Indore"> <label
+                                for="city19">Indore</label></li>
+                        <li><input type="checkbox" id="city20" name="city" value="Jaipur"> <label
+                                for="city20">Jaipur</label></li>
+                        <li><input type="checkbox" id="city21" name="city" value="Jodhpur"> <label
+                                for="city21">Jodhpur</label></li>
+                        <li><input type="checkbox" id="city22" name="city" value="Kanpur"> <label
+                                for="city22">Kanpur</label></li>
+                        <li><input type="checkbox" id="city23" name="city" value="Kochi"> <label
+                                for="city23">Kochi</label>
+                        </li>
+                        <li><input type="checkbox" id="city24" name="city" value="Kolkata"> <label
+                                for="city24">Kolkata</label></li>
+                        <li><input type="checkbox" id="city25" name="city" value="Lucknow"> <label
+                                for="city25">Lucknow</label></li>
+                        <li><input type="checkbox" id="city26" name="city" value="Ludhiana"> <label
+                                for="city26">Ludhiana</label></li>
+                        <li><input type="checkbox" id="city27" name="city" value="Mumbai"> <label
+                                for="city27">Mumbai</label></li>
+                        <li><input type="checkbox" id="city28" name="city" value="Nagpur"> <label
+                                for="city28">Nagpur</label></li>
+                        <li><input type="checkbox" id="city29" name="city" value="Nashik"> <label
+                                for="city29">Nashik</label></li>
+                        <li><input type="checkbox" id="city30" name="city" value="Noida"> <label
+                                for="city30">Noida</label>
+                        </li>
+                        <li><input type="checkbox" id="city31" name="city" value="Patna"> <label
+                                for="city31">Patna</label>
+                        </li>
+                        <li><input type="checkbox" id="city32" name="city" value="Pune"> <label
+                                for="city32">Pune</label>
+                        </li>
+                        <li><input type="checkbox" id="city33" name="city" value="Rajkot"> <label
+                                for="city33">Rajkot</label></li>
+                        <li><input type="checkbox" id="city34" name="city" value="Ranchi"> <label
+                                for="city34">Ranchi</label></li>
+                        <li><input type="checkbox" id="city35" name="city" value="Surat"> <label
+                                for="city35">Surat</label>
+                        </li>
+                        <li><input type="checkbox" id="city36" name="city" value="Thane"> <label
+                                for="city36">Thane</label>
+                        </li>
+                    </div>
+                </div>
+                <div class="filter-topic filter-compensation">
+                    <div class="compensation heading">Compensation</div>
+                    <div class="compensation-option">
+
+                        <label>
+                            <input type="radio" name="type" value="Unpaid">
+                            Unpaid
+                        </label>
+                        <label>
+                            <input type="radio" name="type" value="Paid">
+                            Performance basis
+                        </label>
+
+                    </div>
+                </div>
+                <div class="filter-topic filter-category">
+                    <div class="category heading">Category</div>
+                    <div class="searchCategory">
+                        <input type="text" id="categorySearch" onkeyup="showCategory()" placeholder="Job Categories" />
+                    </div>
+                    <div class="category-option">
+
+                        <li><input type="checkbox" id="job1" name="job" value="Accounting"> <label
+                                for="job1">Accounting</label></li>
+                        <li><input type="checkbox" id="job2" name="job" value="Administration"> <label
+                                for="job2">Administration</label></li>
+                        <li><input type="checkbox" id="job3" name="job" value="Advertising"> <label
+                                for="job3">Advertising</label></li>
+                        <li><input type="checkbox" id="job4" name="job" value="Agriculture"> <label
+                                for="job4">Agriculture</label></li>
+                        <li><input type="checkbox" id="job5" name="job" value="Architecture"> <label
+                                for="job5">Architecture</label></li>
+                        <li><input type="checkbox" id="job6" name="job" value="Art & Design"> <label for="job6">Art
+                                &
+                                Design</label></li>
+                        <li><input type="checkbox" id="job7" name="job" value="Banking"> <label
+                                for="job7">Banking</label>
+                        </li>
+                        <li><input type="checkbox" id="job8" name="job" value="Construction"> <label
+                                for="job8">Construction</label></li>
+                        <li><input type="checkbox" id="job9" name="job" value="Customer Service"> <label
+                                for="job9">Customer
+                                Service</label></li>
+                        <li><input type="checkbox" id="job10" name="job" value="Education"> <label
+                                for="job10">Education</label></li>
+                        <li><input type="checkbox" id="job11" name="job" value="Engineering"> <label
+                                for="job11">Engineering</label></li>
+                        <li><input type="checkbox" id="job12" name="job" value="Finance"> <label
+                                for="job12">Finance</label>
+                        </li>
+                        <li><input type="checkbox" id="job13" name="job" value="Healthcare"> <label
+                                for="job13">Healthcare</label></li>
+                        <li><input type="checkbox" id="job14" name="job" value="Hospitality"> <label
+                                for="job14">Hospitality</label></li>
+                        <li><input type="checkbox" id="job15" name="job" value="Human Resources"> <label
+                                for="job15">Human
+                                Resources</label></li>
+                        <li><input type="checkbox" id="job16" name="job" value="Information Technology"> <label
+                                for="job16">Information Technology</label></li>
+                        <li><input type="checkbox" id="job17" name="job" value="Legal"> <label for="job17">Legal</label>
+                        </li>
+                        <li><input type="checkbox" id="job18" name="job" value="Management"> <label
+                                for="job18">Management</label></li>
+                        <li><input type="checkbox" id="job19" name="job" value="Manufacturing"> <label
+                                for="job19">Manufacturing</label></li>
+                        <li><input type="checkbox" id="job20" name="job" value="Marketing"> <label
+                                for="job20">Marketing</label></li>
+                        <li><input type="checkbox" id="job21" name="job" value="Media & Journalism"> <label
+                                for="job21">Media & Journalism</label></li>
+                        <li><input type="checkbox" id="job22" name="job" value="Non-profit"> <label
+                                for="job22">Non-profit</label></li>
+                        <li><input type="checkbox" id="job23" name="job" value="Pharmaceutical"> <label
+                                for="job23">Pharmaceutical</label></li>
+                        <li><input type="checkbox" id="job24" name="job" value="Public Relations"> <label
+                                for="job24">Public
+                                Relations</label></li>
+                        <li><input type="checkbox" id="job25" name="job" value="Real Estate"> <label for="job25">Real
+                                Estate</label></li>
+                        <li><input type="checkbox" id="job26" name="job" value="Retail"> <label
+                                for="job26">Retail</label>
+                        </li>
+                        <li><input type="checkbox" id="job27" name="job" value="Sales"> <label for="job27">Sales</label>
+                        </li>
+                        <li><input type="checkbox" id="job28" name="job" value="Science & Biotech"> <label
+                                for="job28">Science & Biotech</label></li>
+                        <li><input type="checkbox" id="job29" name="job" value="Supply Chain"> <label for="job29">Supply
+                                Chain</label></li>
+                        <li><input type="checkbox" id="job30" name="job" value="Telecommunications"> <label
+                                for="job30">Telecommunications</label></li>
+                        <li><input type="checkbox" id="job31" name="job" value="Transportation"> <label
+                                for="job31">Transportation</label></li>
+
+                    </div>
+                </div>
+                <div class="submitFilter">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+
+            </div>
+            <div class="filter-btn" id="openFilter">
+                <button>
+                    <i class="fa fa-filter"></i>
+                    Filter
+                </button>
+            </div>
+            <div class="internship-card-list">
+                <div class="internship-card">
+                    <div class="intern-header">
+                        <div class="dates">
+                            <div class="date">Date:<span> 05-02-2024</span></div>
+                            <div class="applyby">Apply by:<span> 25-04-2025</span></div>
+                        </div>
+                        <div class="jobDomain">
+                            <p class="domain">Web Development</p>
+                        </div>
+                    </div>
+                    <div class="intern-openings">
+                        <div class="description">
+                            <div class="internship-title">
+                                Software Development Engineer - Summer 2
+                            </div>
+                            <div class="internship-detail">
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>By:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Meta</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>No. of Openings:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>10</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Internship Type:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Virtual Internships</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Location(S):</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Delhi, New York, Chicago, Tokyo </li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Stipend:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Rs.600000-9000000</li>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="company-image">
+                            <img src="..\assets\img\internships_page\meta.png" alt="Company Logo" height=100
+                                width=100 />
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="more-button">More</button>
+                        <button class="apply-button">Apply</button>
+                    </div>
+                </div>
+
+                <div class="internship-card">
+                    <div class="intern-header">
+                        <div class="dates">
+                            <div class="date">Date:<span> 05-02-2024</span></div>
+                            <div class="applyby">Apply by:<span> 25-04-2025</span></div>
+                        </div>
+                        <div class="jobDomain">
+                            <p class="domain">Marketing</p>
+                        </div>
+                    </div>
+                    <div class="intern-openings">
+                        <div class="description">
+                            <div class="internship-title">
+                                Sales & Marketing intern
+                            </div>
+                            <div class="internship-detail">
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>By:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Amazon</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>No. of Openings:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>26</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Internship Type:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Office Internships</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Location(S):</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Bangalore, Melbourne, New York, Chicago, Tokyo </li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Stipend:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Rs.1200043-6040000</li>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="company-image">
+                            <img src="..\assets\img\internships_page\amazon.png" alt="Company Logo" height=100
+                                width=100 />
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="more-button">More</button>
+                        <button class="apply-button">Apply</button>
+                    </div>
+                </div>
+                <div class="internship-card">
+                    <div class="intern-header">
+                        <div class="dates">
+                            <div class="date">Date:<span> 05-02-2024</span></div>
+                            <div class="applyby">Apply by:<span> 25-04-2025</span></div>
+                        </div>
+                        <div class="jobDomain">
+                            <p class="domain">Software Development</p>
+                        </div>
+                    </div>
+                    <div class="intern-openings">
+                        <div class="description">
+                            <div class="internship-title">
+                                Full Stack Developer Internship - Fall
+                            </div>
+                            <div class="internship-detail">
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>By:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Predulive Labs</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>No. of Openings:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>3-5</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Internship Type:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Virtual Internships or Office Internship</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Location(S):</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Lucknow</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Stipend:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Rs.10000-30000</li>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="company-image">
+                            <img src="..\assets\img\internships_page\predulive.jpg" alt="Company Logo" height=100
+                                width=100 />
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="more-button">More</button>
+                        <button class="apply-button">Apply</button>
+                    </div>
+                </div>
+
+                <div class="internship-card">
+                    <div class="intern-header">
+                        <div class="dates">
+                            <div class="date">Date:<span> 05-02-2024</span></div>
+                            <div class="applyby">Apply by:<span> 25-04-2025</span></div>
+                        </div>
+                        <div class="jobDomain">
+                            <p class="domain">Web Development</p>
+                        </div>
+                    </div>
+                    <div class="intern-openings">
+                        <div class="description">
+                            <div class="internship-title">
+                                Software Development Engineer - Summer 2
+                            </div>
+                            <div class="internship-detail">
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>By:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Meta</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>No. of Openings:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>10</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Internship Type:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Virtual Internships</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Location(S):</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Delhi, New York, Chicago, Tokyo </li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Stipend:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Rs.600000-9000000</li>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="company-image">
+                            <img src="..\assets\img\internships_page\meta.png" alt="Company Logo" height=100
+                                width=100 />
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="more-button">More</button>
+                        <button class="apply-button">Apply</button>
+                    </div>
+                </div>
+
+                <div class="internship-card">
+                    <div class="intern-header">
+                        <div class="dates">
+                            <div class="date">Date:<span> 05-02-2024</span></div>
+                            <div class="applyby">Apply by:<span> 25-04-2025</span></div>
+                        </div>
+                        <div class="jobDomain">
+                            <p class="domain">Marketing</p>
+                        </div>
+                    </div>
+                    <div class="intern-openings">
+                        <div class="description">
+                            <div class="internship-title">
+                                Sales & Marketing intern
+                            </div>
+                            <div class="internship-detail">
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>By:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Amazon</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>No. of Openings:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>26</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Internship Type:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Office Internships</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Location(S):</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Bangalore, Melbourne, New York, Chicago, Tokyo </li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Stipend:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Rs.1200043-6040000</li>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="company-image">
+                            <img src="..\assets\img\internships_page\amazon.png" alt="Company Logo" height=100
+                                width=100 />
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="more-button">More</button>
+                        <button class="apply-button">Apply</button>
+                    </div>
+                </div>
+                <div class="internship-card">
+                    <div class="intern-header">
+                        <div class="dates">
+                            <div class="date">Date:<span> 05-02-2024</span></div>
+                            <div class="applyby">Apply by:<span> 25-04-2025</span></div>
+                        </div>
+                        <div class="jobDomain">
+                            <p class="domain">Software Development</p>
+                        </div>
+                    </div>
+                    <div class="intern-openings">
+                        <div class="description">
+                            <div class="internship-title">
+                                Full Stack Developer Internship - Fall
+                            </div>
+                            <div class="internship-detail">
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>By:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Predulive Labs</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>No. of Openings:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>3-5</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Internship Type:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Virtual Internships or Office Internship</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Location(S):</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Lucknow</li>
+                                    </div>
+                                </div>
+                                <div class="internship-detail-list">
+                                    <div class="about-left">
+                                        <li>Stipend:</li>
+                                    </div>
+                                    <div class="about-right">
+                                        <li>Rs.10000-30000</li>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="company-image">
+                            <img src="..\assets\img\internships_page\predulive.jpg" alt="Company Logo" height=100
+                                width=100 />
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="more-button">More</button>
+                        <button class="apply-button">Apply</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+    </section>
+
+
+    <!-- MDB -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+    <script type="text/javascript" src="..\assets\js\internships-bhupesh.js" defer></script>
+
+
+</body>
+
+</html>
