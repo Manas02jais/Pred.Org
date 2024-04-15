@@ -3,6 +3,10 @@
 body {
   font-family: 'Merriweather', serif;
 }
+.logo{
+  height: 45px;
+  width: 100px;
+ }
 
 /* Navbar */
 
@@ -12,11 +16,17 @@ body {
 }
 a{
     color: white !important;
-    font-weight: bold;
+    font-weight: 700 !important;
+}
+a:hover{
+  color: blue !important;
 }
 .btn{
     background-color: #82caaf;
     border: none;
+    border-radius: 20px;
+    font-weight: 700 !important;
+
 }
 .btn:hover{
   background-color: white;
@@ -27,7 +37,6 @@ a{
 .headerbg{
     height: 400px; 
     width: auto;
-    
 }
 .textabout{
     font-size: 60px;
@@ -58,14 +67,8 @@ a{
     padding-top: 100px;
     padding-bottom: 50px;
 }
-.imgwho{
-    height: 400px;
-    width: 400px;
-}
-.visionimg{
-    width: 400px;
-    height: 300px;
-}
+
+
 .team1img{
     width: 150px;
     height: 150px;
