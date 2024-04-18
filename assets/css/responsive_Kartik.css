@@ -20,6 +20,7 @@
     .center {
         margin-left: 0%;
     }
+
     .carousel-1 {
         width: 360px !important;
         margin-left: 12px;
@@ -80,7 +81,7 @@
 
 }
 
-@media screen and (max-width:370px) {
+@media screen and (min-width : 360px) and (max-width:375px) {
     body {
         overflow-x: hidden;
     }
@@ -95,15 +96,18 @@
         height: auto;
         width: 100%;
     }
-
+    
     /* ---------------- */
     .carousel-1 {
-
+        
         width: 345px !important;
     }
-
-
-
+   
+    .carousel-3 {
+        border: 1px solid black;
+        width: 340px !important;
+    }
+   
     .card-text {
 
         padding-left: 10px;
@@ -131,10 +135,6 @@
         padding: 0 -1px;
     }
 
-    .carousel-3 {
-        /* border: 1px solid black; */
-        width: 340px !important;
-    }
 
     .card-img-top {
         margin-left: 23px;
@@ -173,9 +173,11 @@
     }
 
     .map {
+        
         margin-left: 15px;
         height: 150px;
         width: 300px;
+        padding: 0px;
         margin-bottom: 15px;
     }
 }
@@ -197,9 +199,9 @@
         padding-right: 0px;
     }
 
-   .slider-programs{
-    width: 650px !important;
-   }
+    .slider-programs {
+        width: 650px !important;
+    }
 
     .partner-img {
         margin-top: 10px;
